@@ -9,7 +9,7 @@ TSRCT-PCB-01 uses separate licences for hardware and software. These are compone
 | Adafruit-derived MAX31865 interface code incorporated into the firmware | Retains Adafruit's upstream BSD notice; see [ADAFRUIT-NOTICES.md](ADAFRUIT-NOTICES.md) |
 | Separately installed Arduino core, LCD library, and Python packages | Their respective upstream licences |
 
-Original TSRCT software copyright (c) 2026 Hamish Finn and contributors.
+Original TSRCT software copyright (c) 2026 Hamish Emmerson Finn and contributors.
 
 The RTD front-end hardware is adapted from the Adafruit MAX31865 PCB by Limor Fried/Ladyada for Adafruit Industries. TSRCT-PCB-01 integrates two front ends with the microcontroller, SSR command outputs, and user-interface connections. Hardware adaptations are distributed under CC BY-SA 3.0.
 
