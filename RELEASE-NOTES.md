@@ -21,7 +21,7 @@ See [DEPENDENCIES.md](DEPENDENCIES.md) for the supported board, matched firmware
 ## Update, 3 October 2026 (v1.1.1; hardware, firmware and Python tools unchanged)
 
 - Reference designators made unique for automated assembly: IC1/IC2, REG1/REG2, uC1, BTN1, BUZZ1, I2C-LCD1, and JP1–JP6 for the RTD solder jumpers. The schematic, PCB, schematic PDF and BOM are updated to match. The silkscreen keeps the functional labels.
-- Added `Hardware/TSRCT--PCB-01-Manufacturing-Files`: Gerber and drill files, plus a BOM and position file for each of the Pt100, Pt1000 and Pt100/Pt1000 populations.
+- Added `Hardware/TSRCT-PCB-01-Manufacturing-Files`: Gerber and drill files, plus a BOM and position file for each of the Pt100, Pt1000 and Pt100/Pt1000 populations.
 - MAX31865 SDO pin type corrected to tri-state in the schematic symbol. This clears an ERC error and is not a circuit change.
 - Copper, solder mask, paste, board outline and drill data are unchanged.
 - README: added ordering links for assembled boards (PCBWay), with a commission disclosure, and contact details.
