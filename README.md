@@ -4,7 +4,7 @@
 
 **Repository release: v1.1.1 | Firmware and Python tools: V1.1**
 
-[Setup and dependencies](DEPENDENCIES.md) | [Release notes](RELEASE-NOTES.md) | [Citation](CITATION.cff) | [Licensing](LICENSE.md)
+[Setup and dependencies](DEPENDENCIES.md) • [Release notes](RELEASE-NOTES.md) • [Citation](CITATION.cff) • [Licensing](LICENSE.md)
 
 ![TSRCT-PCB-01 system overview showing dual RTD inputs, SSR outputs, USB communication and user-interface connections](system-overview.png)
 
