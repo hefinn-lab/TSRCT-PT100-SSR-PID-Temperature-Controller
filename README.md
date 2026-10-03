@@ -80,4 +80,4 @@ Please acknowledge the original Adafruit projects when reusing these RTD front e
 
 ## Contact
 
-Technical questions and bug reports: please open a [GitHub issue](https://github.com/hefinn-lab/TSRCT-PT100-SSR-PID-Temperature-Controller/issues). Other enquiries: Hamish Emmerson Finn, University of Tasmania, hamish.finn@utas.edu.au ([ORCID](https://orcid.org/0009-0000-0281-6255 )).
+Technical questions and bug reports: please open a [GitHub issue](https://github.com/hefinn-lab/TSRCT-PT100-SSR-PID-Temperature-Controller/issues). Other enquiries: Hamish Emmerson Finn, University of Tasmania, hamish.finn@utas.edu.au ([ORCID](https://orcid.org/0009-0000-0281-6255)).
