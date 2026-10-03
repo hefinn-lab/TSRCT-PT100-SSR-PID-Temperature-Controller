@@ -77,3 +77,7 @@ The loggers record telemetry; closing a logger does not stop heating. Use the co
 Hardware design files are licensed under **CC BY-SA 3.0**. Original TSRCT software contributions are licensed under **MIT**, and Adafruit-derived code retains its upstream notices. See [LICENSE.md](LICENSE.md) for the component-specific terms and [ADAFRUIT-NOTICES.md](ADAFRUIT-NOTICES.md) for attribution. Preserve the applicable notices when redistributing or modifying the design or software.
 
 Please acknowledge the original Adafruit projects when reusing these RTD front ends or their interface code, and refer to the accompanying manuscript for the TSRCT-PCB-01 design and experimental methods.
+
+## Contact
+
+Technical questions and bug reports: please open a [GitHub issue](https://github.com/hefinn-lab/TSRCT-PT100-SSR-PID-Temperature-Controller/issues). Other enquiries: Hamish Emmerson Finn, University of Tasmania, hamish.finn@utas.edu.au ([ORCID](https://orcid.org/0009-0000-0281-6255 )).
