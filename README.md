@@ -1,6 +1,6 @@
 # An Open-Source Dual-Channel RTD Thermal-Control Platform for Research-Scale PEM Water Electrolysis Balance-of-Plant Integration
 
-**TSRCT-PCB-01** is an Arduino Nano Every–based temperature-control board for experimental thermal management. It connects two Pt100 or Pt1000 resistance temperature detectors (RTDs) to independent **5 V digital solid-state-relay (SSR) control outputs**, with controller power and host communication through a single USB connection. External SSRs switch a separately powered heater circuit.
+The **Thermal Stability Regulatory Control Tool** **(TSRCT-PCB-01)** is an Arduino Nano Every–based temperature-control board for experimental thermal management. It connects two Pt100 or Pt1000 resistance temperature detectors (RTDs) to independent **5 V digital solid-state-relay (SSR) control outputs**, with controller power and host communication through a single USB connection. External SSRs switch a separately powered heater circuit.
 
 **Repository release: v1.1.1 | Firmware and Python tools: V1.1**
 
