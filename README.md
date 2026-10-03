@@ -10,6 +10,18 @@
 
 The accompanying manuscript describes the circuit, analytical tuning methods, experimental results, and operating scope. The reported experiments characterise temperature control on isolated, dry electrolysis-cell end plates.
 
+## Ordering assembled boards
+
+Assembled boards (PCB fabrication, component sourcing, and assembly) can be ordered through PCBWay. Choose the listing that matches your sensors:
+
+[Pt100 version](https://www.pcbway.com/project/shareproject/TSRCT_PT100_SSR_PID_Temperature_Controller_67959e58.html) · [Pt1000 version](https://www.pcbway.com/project/shareproject/TSRCT_PT1000_SSR_PID_Temperature_Controller_ba38c86e.html) · [Pt100/Pt1000 hybrid version](https://www.pcbway.com/project/shareproject/TSRCT_PT100_PT1000_SSR_PID_Temperature_Controller_0d5c73a0.html) (channel 1 Pt100, channel 2 Pt1000)
+
+All three use the same PCB -- only the reference resistors and RTD input-filter capacitors differ. To use another manufacturer, the Gerber and drill files, plus a BOM and position file for each variant, are in [`Hardware/TSRCT-PCB-01-Manufacturing-Files`](Hardware/TSRCT-PCB-01-Manufacturing-Files/).
+
+Assembled boards arrive configured for 4-wire RTDs, with the Arduino Nano Every unprogrammed -- see [RTD wiring and soldering](#rtd-wiring-and-soldering) for 2- and 3-wire use.
+
+Disclosure: the author receives a 10% commission from PCBWay on orders placed through these listings.
+
 ## Basic functions
 
 - Two MAX31865 RTD acquisition channels with independent temperature set points.
@@ -51,7 +63,7 @@ Set the firmware's nominal RTD resistance, reference-resistor value, and wiring 
 
 ## Getting started
 
-1. Assemble the board using its schematic and bill of materials, then configure the RTD connections as above.
+1. Assemble the board using its schematic and bill of materials, or order an assembled board (see above) -- standardise the RTD settings across sensors, solder-jumpers and firmware for wire type.
 2. Follow [DEPENDENCIES.md](DEPENDENCIES.md) to configure the Arduino Nano Every target and Arduino megaAVR Boards core, install the Python packages, and select the matching sketch/logger pair.
 3. Connect the RTDs and compatible SSR control inputs, checking input-current requirements against the board's output capability. Heater power must pass through the external switching circuit, with independent thermal protection.
 4. Upload the nominal-control or analytical-tuning sketch and run its companion Python logger. Before enabling heater power, confirm plausible temperature readings, correct sensor-to-heater channel pairing, and heater-off behaviour on your assembled system.
