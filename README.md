@@ -65,7 +65,7 @@ Set the firmware's nominal RTD resistance, reference-resistor value, and wiring 
 
 ## Getting started
 
-1. Assemble the board using its schematic and bill of materials, or order an assembled board (see above) -- standardise settings for solder-jumper and firmware configuration to match your sensor type. Firmware is configured for 3-wire sensors. 
+1. Assemble the board using its schematic and bill of materials, or order an assembled board (see above) -- standardise settings for solder-jumper and firmware configuration to match your sensor type. Firmware is configured for 3-wire sensors, and requires soldering as per instructions linked above. 
 2. Follow [DEPENDENCIES.md](DEPENDENCIES.md) to configure the Arduino Nano Every target and Arduino megaAVR Boards core, install the Python packages, and select the matching sketch/logger pair.
 3. Connect the RTDs and compatible SSR control inputs, checking input-current requirements against the board's output capability. Heater power must pass through the external switching circuit, with independent thermal protection.
 4. Upload the nominal-control or analytical-tuning sketch and run its companion Python logger. Before enabling heater power, confirm plausible temperature readings, correct sensor-to-heater channel pairing, and heater-off behaviour on your assembled system.
