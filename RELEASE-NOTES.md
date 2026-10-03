@@ -25,4 +25,5 @@ See [DEPENDENCIES.md](DEPENDENCIES.md) for the supported board, matched firmware
 - MAX31865 SDO pin type corrected to tri-state in the schematic symbol. This clears an ERC error and is not a circuit change.
 - Copper, solder mask, paste, board outline and drill data are unchanged.
 - README: added ordering links for assembled boards (PCBWay), with a commission disclosure, and contact details.
+- Microcontroller value corrected to Arduino_Nano_Every in the schematic, BOM and position files -- footprint was correct and is unchanged.
 - Known issue: DRC reports a thermal-relief spoke-count warning at the MAX31865 exposed-pad vias and at one pull-up resistor pad. It has no electrical or thermal effect at this board's power level (IC dissipation of tens of mW, pull-up current 0.5 mA) and is left as is so the released copper matches the tested boards.
