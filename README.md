@@ -22,7 +22,7 @@ The hybrid Pt100/Pt1000 version configures channel 1 as Pt100, and channel 2 as 
 
 Assembled boards arrive configured for 4-wire RTDs, with the Arduino Nano Every unprogrammed -- see [RTD wiring and soldering](#rtd-wiring-and-soldering) for 2- and 3-wire use.
 
-Disclosure: the author receives a 10% commission from PCBWay on orders placed through these listings.
+Disclosure: the author receives a 10% donation from PCBWay on orders placed through these listings.
 
 ## Basic functions
 
