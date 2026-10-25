@@ -2,6 +2,10 @@
 
 The **Thermal Stability Regulatory Control Tool** **(TSRCT-PCB-01)** is an Arduino Nano Every–based temperature-control board for experimental thermal management. It connects two Pt100 or Pt1000 resistance temperature detectors (RTDs) to independent **5 V digital solid-state-relay (SSR) control outputs**, with controller power and host communication through a single USB connection. External SSRs switch a separately powered heater circuit.
 
+**Read the published manuscript**
+
+[Manuscript](https://www.mdpi.com/1996-1073/19/20/4865#B17-energies-19-04865)
+
 **Repository release: v1.1.1 | Firmware and Python tools: V1.1**
 
 [Setup and dependencies](DEPENDENCIES.md) • [Release notes](RELEASE-NOTES.md) • [Citation](CITATION.cff) • [Licensing](LICENSE.md)
